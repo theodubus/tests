@@ -1,0 +1,5 @@
+{
+  "source": {"directories": ["src"]},
+  "logs": {"json": "infection.json"},
+  "phpUnit": {"customPath": "vendor/bin/phpunit"}
+}
