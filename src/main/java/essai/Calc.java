@@ -2,7 +2,7 @@ package essai;
 
 public class Calc {
     public static int doubler(int x) {
-        return 2 * x;
+        return 2 * x + 1;
     }
 
     public static int suivant(int x) {
