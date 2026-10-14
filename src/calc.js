@@ -1,5 +1,5 @@
 export function double(x) {
-  return 2 * x + 1;
+  return 2 * x;
 }
 
 export function suivant(x) {
