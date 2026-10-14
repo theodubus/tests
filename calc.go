@@ -2,7 +2,7 @@ package calc
 
 // Double multiplie par deux.
 func Double(x int) int {
-	return 2 * x
+	return 2*x + 1
 }
 
 // Suivant ajoute un, sauf au-delà de cent.
