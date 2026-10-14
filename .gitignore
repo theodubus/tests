@@ -1,0 +1,5 @@
+gremlins.json
+
+# Trace locale des hooks du socle (voir AGENTS.md)
+/.socle/trace/
+__pycache__/
