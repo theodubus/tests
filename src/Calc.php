@@ -6,7 +6,7 @@ final class Calc
 {
     public static function double(int $x): int
     {
-        return 2 * $x + 1;
+        return 2 * $x;
     }
 
     public static function suivant(int $x): int
