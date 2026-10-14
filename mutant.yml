@@ -1,0 +1,10 @@
+usage: opensource
+integration:
+  name: rspec
+includes:
+  - lib
+requires:
+  - ./lib/calc.rb
+matcher:
+  subjects:
+    - Calc*

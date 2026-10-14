@@ -1,0 +1,6 @@
+# Posé par l'installeur du socle. Ce qui définit les garde-fous exige la revue
+# de son propriétaire humain (politique : seul l'humain modifie la politique).
+/.socle/ @essai
+/.claude/settings.json @essai
+/.github/ @essai
+/memory/requests/*.answer.toml @essai
