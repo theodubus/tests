@@ -79,3 +79,5 @@ jobs:
             gh issue create --label mutation --title "Le cliquet de mutation a cassé" \
               --body "Le balayage planifié du $(date -u +%F) casse : $lien — des survivants au-delà du plafond d'un module, ou un module que le balayage n'a pas couvert. Le détail est dans le journal de l'étape « Balayage et verdict »."
           fi
+
+# essai
