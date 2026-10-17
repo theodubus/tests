@@ -1,7 +1,7 @@
 # Le module de calcul d'essai.
 module Calc
   def self.double(x)
-    2 * x + 1
+    2 * x
   end
 
   def self.suivant(x)
