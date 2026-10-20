@@ -1,0 +1,8 @@
+# Verrou du moteur — écrit par l'installeur, jamais à la main.
+# La CI recalcule l'empreinte ; un moteur altéré dans le projet fait échouer `moteur.empreinte`.
+version = "0.1.0"
+mode = "projet"
+engine_dir = ".socle/engine"
+fingerprint = "sha256:a22f064a3c14771175cffe9dca024ffd1d7906b82cc960086b5148c72be3d69f"
+files = 87
+format = 3

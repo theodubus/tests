@@ -1,0 +1,11 @@
+# Posé par le socle (ADR-0032) et régénéré à chaque mise à jour : ne pas
+# l'éditer. BMAD planifie ; le socle prouve et retient.
+[@@TABLE@@]
+persistent_facts = ["file:@@ACTIF@@", "file:@@CANONIQUE@@"]
+activation_steps_append = [
+  "Lancer `python3 .socle/socle state` et en tenir compte : les demandes de l'humain en attente, ce qui lui revient, le chantier actif, les specs et les travaux reportés de BMAD.",
+  "Chaque fois que l'humain répond à une question posée en séance (approuver une spec, trancher une question ouverte), consigner aussitôt la question et sa réponse mot pour mot : `python3 .socle/socle decision \"<la question>\" <réponse> --relayed --by <nom> --quote-file <fichier du texte exact>`, avec `--about <la spec>` pour une approbation. Une décision qui doit survivre à la session, l'humain absent, est une demande complète (`python3 .socle/socle new request`).",
+  "Les décisions d'architecture de BMAD (AD-n) sont des décisions : les lire par `python3 .socle/socle show AD-n` avant de s'appuyer sur l'une, et la citer avec son empreinte (`AD-n@empreinte`) ; on ne la rouvre pas sans fait nouveau.",
+  "Ne pas toucher au bloc du socle dans AGENTS.md, entre ses deux marqueurs : son installeur le régénère.",
+]
+@@FIN@@

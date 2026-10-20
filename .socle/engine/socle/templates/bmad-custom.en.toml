@@ -1,0 +1,11 @@
+# Written by the socle (ADR-0032) and regenerated at every update: do not
+# edit it. BMAD plans; the socle proves and remembers.
+[@@TABLE@@]
+persistent_facts = ["file:@@ACTIF@@", "file:@@CANONIQUE@@"]
+activation_steps_append = [
+  "Run `python3 .socle/socle state` and act on it: the human's pending requests, what is theirs to do, the active work, BMAD's specs and deferred work.",
+  "Each time the human answers a question asked in session (approving a spec, settling an open question), record at once the question and their answer word for word: `python3 .socle/socle decision \"<the question>\" <answer> --relayed --by <name> --quote-file <file of the exact text>`, with `--about <the spec>` for an approval. A decision that must outlive the session, the human away, is a full request (`python3 .socle/socle new request`).",
+  "BMAD's architecture decisions (AD-n) are decisions: read one with `python3 .socle/socle show AD-n` before relying on it, and cite it with its fingerprint (`AD-n@fingerprint`); it is not reopened without a new fact.",
+  "Do not touch the socle's block in AGENTS.md, between its two markers: its installer regenerates it.",
+]
+@@FIN@@
