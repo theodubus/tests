@@ -4,7 +4,7 @@ public static class Calcul
 {
     public static int Doubler(int x)
     {
-        return 2 * x;
+        return 2 * x + 1;
     }
 
     public static int Suivant(int x)
